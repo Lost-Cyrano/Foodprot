@@ -1,0 +1,41 @@
+{
+  "categories": {
+    "Céréales et Féculents": [
+      {"name": "Flocons d'avoine", "image": "images/avoine.jpg", "calories": 350, "proteins": 13, "carbs": 60, "fats": 7},
+      {"name": "Pain complet", "image": "images/pain_complet.jpg", "calories": 247, "proteins": 13, "carbs": 41, "fats": 4},
+      {"name": "Riz complet", "image": "images/riz_complet.jpg", "calories": 350, "proteins": 7, "carbs": 75, "fats": 2},
+      {"name": "Pâtes complètes", "image": "images/pates_completes.jpg", "calories": 350, "proteins": 12, "carbs": 70, "fats": 2},
+      {"name": "Quinoa", "image": "images/quinoa.jpg", "calories": 368, "proteins": 14, "carbs": 64, "fats": 6},
+      {"name": "Semoule", "image": "images/semoule.jpg", "calories": 356, "proteins": 12, "carbs": 73, "fats": 1}
+    ],
+    "Fruits et Légumes": [
+      {"name": "Banane", "image": "images/banane.jpg", "calories": 89, "proteins": 1, "carbs": 23, "fats": 0.3},
+      {"name": "Fruits rouges", "image": "images/fruits_rouges.jpg", "calories": 50, "proteins": 1, "carbs": 12, "fats": 0.3},
+      {"name": "Pomme", "image": "images/pomme.jpg", "calories": 52, "proteins": 0.3, "carbs": 14, "fats": 0.2},
+      {"name": "Avocat", "image": "images/avocat.jpg", "calories": 160, "proteins": 2, "carbs": 9, "fats": 15},
+      {"name": "Orange", "image": "images/orange.jpg", "calories": 47, "proteins": 1, "carbs": 12, "fats": 0.1},
+      {"name": "Fraise", "image": "images/fraise.jpg", "calories": 32, "proteins": 0.7, "carbs": 7, "fats": 0.3},
+      {"name": "Poire", "image": "images/poire.jpg", "calories": 57, "proteins": 0.4, "carbs": 15, "fats": 0.1},
+      {"name": "Mangue", "image": "images/mangue.jpg", "calories": 60, "proteins": 0.8, "carbs": 15, "fats": 0.4},
+      {"name": "Ananas", "image": "images/ananas.jpg", "calories": 50, "proteins": 0.5, "carbs": 13, "fats": 0.1}
+    ],
+    "Protéines et Produits Laitiers": [
+      {"name": "Oeufs", "image": "images/oeuf.jpg", "calories": 155, "proteins": 13, "carbs": 1, "fats": 11},
+      {"name": "Lait entier", "image": "images/lait.jpg", "calories": 60, "proteins": 3.5, "carbs": 5, "fats": 3.2},
+      {"name": "Yaourt grec", "image": "images/yaourt_grec.jpg", "calories": 100, "proteins": 9, "carbs": 4, "fats": 5},
+      {"name": "Fromage blanc", "image": "images/fromage_blanc.jpg", "calories": 98, "proteins": 11, "carbs": 4, "fats": 3},
+      {"name": "Tofu", "image": "images/tofu.jpg", "calories": 144, "proteins": 15, "carbs": 3, "fats": 9}
+    ],
+    "Oléagineux et Beurres": [
+      {"name": "Beurre de cacahuète", "image": "images/beurre_cacahuete.jpg", "calories": 588, "proteins": 25, "carbs": 20, "fats": 50},
+      {"name": "Amandes", "image": "images/amandes.jpg", "calories": 575, "proteins": 21, "carbs": 22, "fats": 49},
+      {"name": "Noix", "image": "images/noix.jpg", "calories": 654, "proteins": 15, "carbs": 14, "fats": 65},
+      {"name": "Noisettes", "image": "images/noisettes.jpg", "calories": 628, "proteins": 15, "carbs": 17, "fats": 61}
+    ],
+    "Sucres et Énergétiques": [
+      {"name": "Miel", "image": "images/miel.jpg", "calories": 304, "proteins": 0.3, "carbs": 82, "fats": 0},
+      {"name": "Pâte à tartiner", "image": "images/pate_tartiner.jpg", "calories": 540, "proteins": 7, "carbs": 57, "fats": 31},
+      {"name": "Confiture", "image": "images/confiture.jpg", "calories": 250, "proteins": 0.4, "carbs": 65, "fats": 0.1}
+    ]
+  }
+}
