@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sélection des aliments</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .food-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .food-item {
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            background: #fff;
+            text-align: center;
+            width: 200px;
+        }
+        .food-item img {
+            max-width: 100px;
+            border-radius: 5px;
+        }
+        .buttons {
+            margin-top: 10px;
+        }
+        .buttons button {
+            margin: 5px;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .select-green { background: #4CAF50; color: white; }
+        .select-orange { background: #FFA500; color: white; }
+        .select-red { background: #FF0000; color: white; }
+        #prepare-btn {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Sélectionnez vos aliments</h1>
+        <div id="food-list" class="food-list"></div>
+        <button id="prepare-btn">Préparer ma matinée !</button>
+    </div>
+    <script>
+        const foods = [
+            { name: "Flocons d'avoine", image: "images/avoine.jpg", calories: 350, proteins: 13 },
+            { name: "Oeufs", image: "images/oeuf.jpg", calories: 155, proteins: 13 },
+            { name: "Lait entier", image: "images/lait.jpg", calories: 60, proteins: 3.5 },
+            { name: "Banane", image: "images/banane.jpg", calories: 89, proteins: 1 }
+        ];
+        
+        const foodList = document.getElementById("food-list");
+        foods.forEach(food => {
+            const foodItem = document.createElement("div");
+            foodItem.classList.add("food-item");
+            foodItem.innerHTML = `
+                <img src="${food.image}" alt="${food.name}">
+                <h3>${food.name}</h3>
+                <p>Calories: ${food.calories} kcal</p>
+                <p>Protéines: ${food.proteins}g</p>
+                <div class="buttons">
+                    <button class="select-green">J'en veux</button>
+                    <button class="select-orange">À éviter</button>
+                    <button class="select-red">Indisponible</button>
+                </div>
+            `;
+            foodList.appendChild(foodItem);
+        });
+    </script>
+</body>
+</html>
